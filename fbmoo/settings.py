@@ -91,3 +91,4 @@ ROBOTSTXT_OBEY = True
 
 PROJECT_ROOT = '/home/eagle/webdev/fbmoo/scrapy/fbmoo/fbmoo/'
 SCRAPED_LINKS = PROJECT_ROOT + 'scraped_links/'
+DATA_PATH = PROJECT_ROOT + 'data/'
