@@ -2,10 +2,564 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d86ff6c-98f6-416c-94d2-8c9f1fa470b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fbmoo/scraped_links/league_links" beforeDir="false" afterPath="$PROJECT_DIR$/fbmoo/scraped_links/league_links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extract_teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/argentina/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/austria/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0001/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0102/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0203/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0304/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0405/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0506/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0607/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0708/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0809/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/0910/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1011/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1112/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1213/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1314/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1415/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1516/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1617/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1718/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/1819/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/9596/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/9697/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/9798/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/9899/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/belgium/9900/jupiler league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/brazil/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/china/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/denmark/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0001/.~lock.premier league.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0001/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0001/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0001/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0001/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0102/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0102/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0102/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0102/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0203/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0203/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0203/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0203/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0304/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0304/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0304/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0304/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0405/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0405/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0405/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0405/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0506/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0506/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0506/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0506/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0506/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0607/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0607/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0607/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0607/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0607/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0708/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0708/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0708/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0708/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0708/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0809/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0809/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0809/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0809/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0809/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0910/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0910/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0910/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0910/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/0910/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1011/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1011/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1011/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1011/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1011/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1112/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1112/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1112/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1112/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1112/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1213/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1213/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1213/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1213/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1213/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1314/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1314/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1314/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1314/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1314/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1415/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1415/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1415/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1415/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1415/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1516/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1516/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1516/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1516/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1516/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1617/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1617/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1617/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1617/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1617/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1718/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1718/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1718/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1718/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1718/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1819/championship.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1819/conference.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1819/league 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1819/league 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/1819/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9394/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9394/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9394/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9394/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9495/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9495/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9495/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9495/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9596/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9596/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9596/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9596/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9697/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9697/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9697/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9697/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9798/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9798/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9798/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9798/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9899/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9899/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9899/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9899/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9900/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9900/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9900/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/england/9900/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/finland/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0001/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0001/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0102/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0102/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0203/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0203/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0304/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0304/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0405/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0405/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0506/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0506/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0607/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0607/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0708/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0708/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0809/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0809/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0910/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/0910/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1011/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1011/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1112/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1112/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1213/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1213/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1314/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1314/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1415/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1415/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1516/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1516/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1617/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1617/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1718/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1718/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1819/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/1819/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9394/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9495/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9596/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9697/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9697/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9798/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9798/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9899/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9899/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9900/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/france/9900/le championnat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0001/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0001/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0102/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0102/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0203/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0203/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0304/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0304/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0405/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0405/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0506/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0506/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0607/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0607/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0708/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0708/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0809/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0809/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0910/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/0910/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1011/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1011/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1112/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1112/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1213/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1213/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1314/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1314/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1415/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1415/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1516/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1516/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1617/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1617/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1718/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1718/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1819/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/1819/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9394/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9394/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9495/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9495/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9596/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9596/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9697/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9697/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9798/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9798/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9899/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9899/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9900/bundesliga 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/germany/9900/bundesliga 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0001/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0102/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0203/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0304/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0405/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0506/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0607/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0708/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0809/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/0910/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1011/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1112/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1213/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1314/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1415/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1516/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1617/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1718/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/1819/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/9495/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/9596/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/9697/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/9798/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/9899/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/greece/9900/ethniki katigoria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/ireland/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0001/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0001/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0102/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0102/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0203/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0203/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0304/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0304/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0405/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0405/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0506/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0506/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0607/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0607/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0708/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0708/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0809/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0809/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0910/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/0910/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1011/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1011/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1112/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1112/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1213/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1213/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1314/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1314/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1415/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1415/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1516/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1516/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1617/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1617/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1718/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1718/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1819/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/1819/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9394/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9495/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9596/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9697/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9798/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9798/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9899/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9899/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9900/serie a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/italy/9900/serie b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/japan/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/mexico/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0001/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0102/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0203/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0304/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0405/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0506/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0607/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0708/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0809/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/0910/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1011/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1112/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1213/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1314/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1415/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1516/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1617/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1718/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/1819/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9394/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9495/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9596/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9697/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9798/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9899/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/netherlands/9900/eredivisie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/norway/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/poland/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0001/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0102/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0203/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0304/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0405/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0506/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0607/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0708/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0809/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/0910/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1011/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1112/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1213/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1314/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1415/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1516/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1617/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1718/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/1819/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/9495/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/9596/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/9697/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/9798/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/9899/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/portugal/9900/liga i.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/romania/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/russia/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0001/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0001/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0001/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0001/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0102/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0102/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0102/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0102/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0203/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0203/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0203/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0203/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0304/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0304/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0304/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0304/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0405/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0405/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0405/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0405/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0506/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0506/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0506/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0506/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0607/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0607/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0607/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0607/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0708/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0708/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0708/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0708/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0809/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0809/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0809/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0809/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0910/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0910/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0910/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/0910/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1011/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1011/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1011/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1011/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1112/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1112/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1112/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1112/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1213/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1213/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1213/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1213/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1314/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1314/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1314/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1314/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1415/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1415/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1415/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1415/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1516/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1516/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1516/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1516/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1617/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1617/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1617/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1617/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1718/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1718/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1718/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1718/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1819/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1819/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1819/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/1819/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9495/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9495/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9596/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9596/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9697/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9697/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9798/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9798/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9798/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9798/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9899/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9899/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9899/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9899/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9900/division 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9900/division 2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9900/division 3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/scotland/9900/premier league.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0001/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0001/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0102/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0102/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0203/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0203/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0304/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0304/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0405/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0405/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0506/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0506/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0607/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0607/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0708/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0708/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0809/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0809/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0910/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/0910/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1011/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1011/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1112/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1112/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1213/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1213/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1314/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1314/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1415/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1415/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1516/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1516/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1617/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1617/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1718/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1718/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1819/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/1819/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9394/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9495/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9596/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9697/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9697/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9798/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9798/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9899/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9899/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9900/la liga primera division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/spain/9900/la liga segunda division.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/sweden/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/switzerland/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0001/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0102/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0203/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0304/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0405/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0506/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0607/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0708/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0809/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/0910/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1011/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1112/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1213/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1314/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1415/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1516/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1617/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1718/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/1819/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/9495/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/9596/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/9697/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/9798/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/9899/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/turkey/9900/futbol ligi 1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/data/usa/data.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fbmoo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fbmoo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmoo/spiders/league_data_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/fbmoo/spiders/league_data_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbmoo/spiders/matches_data_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/fbmoo/spiders/matches_data_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fbmoo/spiders/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,31 +571,71 @@
     <session id="-1597418206">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="2" />
           <entry key="league_links" value="3" />
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="3" />
+          <entry key="CSV" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2428" />
+          <entry key="py" value="2490" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2428" />
+          <entry key="Python" value="2490" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1853570994">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="115" />
+          <entry key="dummy" value="1" />
+          <entry key="py" value="1189" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1304" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="3" />
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="3" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +645,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fbmoo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="600">
+              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -60,11 +654,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fbmoo/spiders/matches_data_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="437">
               <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1535953565698" expanded="true" signature="435:500" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,11 +668,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fbmoo/spiders/league_data_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="304">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -87,7 +680,71 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extract_teams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="771">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbmoo/data/main/greece/0102/ethniki katigoria.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbmoo/data/main/scotland/0304/division 2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbmoo/data/main/scotland/0304/division 3.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="173" column="90" lean-forward="true" selection-start-line="173" selection-start-column="90" selection-end-line="173" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbmoo/data/main/england/1213/premier league.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbmoo/data/main/belgium/9900/jupiler league.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,10 +752,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fbmoo/settings.py" />
         <option value="$PROJECT_DIR$/fbmoo/scraped_links/league_links" />
         <option value="$PROJECT_DIR$/fbmoo/spiders/matches_data_spider.py" />
         <option value="$PROJECT_DIR$/fbmoo/spiders/league_data_spider.py" />
+        <option value="$PROJECT_DIR$/fbmoo/settings.py" />
+        <option value="$PROJECT_DIR$/fbmoo/utils/extract_teams.py" />
+        <option value="$PROJECT_DIR$/fbmoo/data/main/scotland/0304/division 2.csv" />
+        <option value="$PROJECT_DIR$/fbmoo/data/main/scotland/0304/division 3.csv" />
+        <option value="$PROJECT_DIR$/fbmoo/data/main/greece/0102/ethniki katigoria.csv" />
+        <option value="$PROJECT_DIR$/extract_teams.py" />
       </list>
     </option>
   </component>
@@ -114,7 +776,9 @@
     <option name="width" value="1853" />
     <option name="height" value="1055" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -143,7 +807,24 @@
               <item name="fbmoo" type="462c0819:PsiDirectoryNode" />
               <item name="fbmoo" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="scotland" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fbmoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fbmoo" type="462c0819:PsiDirectoryNode" />
+              <item name="fbmoo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="greece" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fbmoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fbmoo" type="462c0819:PsiDirectoryNode" />
+              <item name="fbmoo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="greece" type="462c0819:PsiDirectoryNode" />
+              <item name="0102" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fbmoo" type="b2602c69:ProjectViewProjectNode" />
@@ -171,7 +852,21 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/fbmoo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PythonConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -198,8 +893,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22136137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,8 +909,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32948583" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -229,31 +926,78 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fbmoo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/fbmoo/utils/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/fbmoo/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/fbmoo/scraped_links/league_links">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fbmoo/spiders/matches_data_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="437">
           <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1535953565698" expanded="true" signature="435:500" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fbmoo/scraped_links/league_links">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/fbmoo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fbmoo/spiders/league_data_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="304">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbmoo/data/main/belgium/9900/jupiler league.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbmoo/data/main/england/1213/premier league.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbmoo/data/main/scotland/0304/division 2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbmoo/data/main/scotland/0304/division 3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="173" column="90" lean-forward="true" selection-start-line="173" selection-start-column="90" selection-end-line="173" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbmoo/data/main/greece/0102/ethniki katigoria.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_teams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

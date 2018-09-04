@@ -89,6 +89,8 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-PROJECT_ROOT = '/home/eagle/webdev/fbmoo/scrapy/fbmoo/fbmoo/'
+PROJECT_ROOT = '/home/eagle/webdev/scrapy/fbmoo/fbmoo/'
 SCRAPED_LINKS = PROJECT_ROOT + 'scraped_links/'
 DATA_PATH = PROJECT_ROOT + 'data/'
+MAIN_LEAGUE_PATH = DATA_PATH + 'main/'
+
